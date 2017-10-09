@@ -26,15 +26,13 @@ Then you can add routes to it. See the example from this project's repository in
 
 ```js
 const server = require('server');
-server.plugins.push(require('./plugin'));
-const { get, error } = server.router;
+server.plugins.push(require('@server/react'));
+const { get } = server.router;
 const { render } = server.reply;
 
+// Will automatically serve this and any page in 'pages'
 server(
   get('/b/:subreddit', ctx => render('handler.js')),
-
-  // Just some light error handling
-  error(ctx => { console.log(ctx.error); })
 );
 ```
 
