@@ -12,11 +12,7 @@ export default class About extends React.Component {
   render () {
     return (
       <div>
-        <style jsx>{`
-          button {
-            background: red;
-          }
-        `}</style>
+        <style jsx>{`button { background: red; }`}</style>
         <Head>
           <title>Hello {this.props.server ? 'server' : 'client'}</title>
         </Head>
