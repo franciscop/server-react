@@ -1,16 +1,13 @@
 {
   "name": "@server/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A plugin for loading React with server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Francisco Presencia <public@francisco.io>",
   "license": "MIT",
-  "devDependencies": {
-    "server": "^1.0.0-beta.2"
-  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -20,6 +17,20 @@
     "next": "^3.2.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "server": "^1.0.0-beta.2",
     "webpack": "^3.5.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscop/server-react.git"
+  },
+  "keywords": [
+    "server",
+    "react",
+    "next"
+  ],
+  "bugs": {
+    "url": "https://github.com/franciscop/server-react/issues"
+  },
+  "homepage": "https://github.com/franciscop/server-react#readme"
 }
